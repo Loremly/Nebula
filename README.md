@@ -17,7 +17,7 @@
 ### This theme requires the latest version of [Powercord](https://powercord.dev/installation) and [Discord Canary](https://discordia.me/en/canary)
 
 # Theme Installation
-### For [Powercord](https://powercord.dev) users who do not have [Theme Downloader](https://github.com/ploogins/PowercordThemeDownloader) You can install the theme with the command below. 
+### For [Powercord](https://powercord.dev) users who do not have [Plugin Downloader](https://github.com/LandenStephenss/PowercordPluginDownloader) You can install the theme with the command below. 
 
 ```    
 cd powercord/src/powercord/plugins && git clone https://github.com/loremly/nebula
