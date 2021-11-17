@@ -63,5 +63,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>BF</td>
          <td>Fixed disabled channetextarea and replying message</td>
       </tr>
+      <tr>
+         <td>2021-11-17</td>
+         <td>M-U</td>
+         <td>Polished various elements across Nebula</td>
+      </tr>
    </tbody>
 </table>

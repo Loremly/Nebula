@@ -18,6 +18,7 @@
         background-color: var(--background-secondary-alt);
         border-radius: var(--primary-rounding);
         margin: var(--primary-spacing) 0;
+        margin-bottom: 0 !important;
         [style="height: 8px;"]{
             height: var(--primary-spacing) !important;
         }
