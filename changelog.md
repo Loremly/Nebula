@@ -73,5 +73,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>M-U</td>
          <td>Bug fixes and various polishing</td>
       </tr>
+      <tr>
+         <td>2021-11-18</td>
+         <td>BF | M-U</td>
+         <td>Bug fixes and readjustments / Forgot to style server banners</td>
+      </tr>
    </tbody>
 </table>

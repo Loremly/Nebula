@@ -1,4 +1,4 @@
-# Nebula v5.0.6
+# Nebula v5.0.7
 ### Round, blue, consistent, Nebula!
 ![screenshot](/assets/screenshot.png)
 ## Table of context

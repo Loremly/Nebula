@@ -11,4 +11,29 @@
         margin-top: 0 !important;
         filter: none !important;
     }
+    .animatedContainer-1NSq4T{
+        background-color: var(--background-secondary-alt);
+        top: calc(var(--tertiary-spacing) * 3.06);
+        border-radius: var(--primary-rounding);
+        transform: none !important;
+        opacity: 1 !important;
+        box-shadow: none;
+        z-index: 100;
+        padding-top: 10px;
+        .bannerImage-3KhIJ6{
+            transform: none !important;
+            width: 100%;
+            height: 150px;
+            .bannerImg-2NHyzX{
+                width: calc(100% - var(--secondary-spacing));
+                border-radius: var(--primary-rounding);
+                left: var(--primary-spacing);
+                position: relative;
+                top: 10px;
+            }
+            &::before{
+                display: none;
+            }
+        }
+    }
 }
