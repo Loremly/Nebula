@@ -13,6 +13,7 @@
                 .attachWrapper-2TRKBi{
                     background-color: var(--background-tertiary);
                     border-radius: var(--primary-rounding);
+                    margin-right: var(--primary-spacing);
                     width: 50px;
                     .attachButton-2WznTc{
                         margin: 0 !important;
@@ -25,6 +26,7 @@
                     background-color: var(--background-tertiary);
                     border-radius: var(--primary-rounding);
                     margin: 0 var(--primary-spacing);
+                    margin-left: 0 !important;
                     .placeholder-37qJjk,
                     .slateTextArea-1Mkdgw{
                         padding: var(--secondary-rounding);
@@ -40,6 +42,11 @@
                 }
             }
         }
+    }
+    .wrapper-39oAo3{
+        width: calc(100% - var(--primary-spacing));
+        border-radius: var(--primary-rounding);
+        margin-bottom: var(--primary-spacing);
     }
     &::before{
         display: none;

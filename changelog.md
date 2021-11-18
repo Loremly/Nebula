@@ -68,5 +68,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>M-U</td>
          <td>Polished various elements across Nebula</td>
       </tr>
+      <tr>
+         <td>2021-11-17</td>
+         <td>M-U</td>
+         <td>Bug fixes and various polishing</td>
+      </tr>
    </tbody>
 </table>
