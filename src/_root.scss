@@ -10,7 +10,8 @@
 // ║ Variables                ║ Variables are values that can be used across the Nebula code.                           ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-:root{
+.theme-dark,
+.theme-light{
     // ╔══════════════════════╦════════════════════════════════════╗
     // ║ Color Variables      ║ Format: HEX, var()                 ║
     // ╚══════════════════════╩════════════════════════════════════╝
@@ -44,9 +45,12 @@
     // ║ Text Variables       ║ Format: 'text';                    ║
     // ╚══════════════════════╩════════════════════════════════════╝
 
+    --primary-font: 'Google Sans',sans-serif;
+    --font-display: var(--primary-font);
+
     --theme: 'Nebula';
     --author: 'Loremly';
-    --version: 'v5.0.7';
+    --version: 'v5.3.8';
 
     // ╔══════════════════════╦════════════════════════════════════╗
     // ║ Cosmetic Variables   ║ Format: px, calc()                 ║

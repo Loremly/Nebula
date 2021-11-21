@@ -6,10 +6,9 @@
 
 - [ ] Skins
 - [ ] Web Support  
-- [ ] Better useability
+- [x] Better useability
+- [ ] Fonts
 
 ### In Progress
 
 - Addons 
-
-### Done ✓

@@ -78,5 +78,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>BF | M-U</td>
          <td>Bug fixes and readjustments / Forgot to style server banners</td>
       </tr>
+      <tr>
+         <td>2021-11-20</td>
+         <td>MJR-U (5.3.8)</td>
+         <td>After heavy request, you can now have a normal server list! Bug Fixes, And now fonts have arrived!</td>
+      </tr>
    </tbody>
 </table>

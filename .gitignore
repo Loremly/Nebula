@@ -1,3 +1,6 @@
 # Config files
 .config
 *.config
+
+# VSCodeCounter
+.VSCodeCounter
