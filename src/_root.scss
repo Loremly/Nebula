@@ -21,10 +21,10 @@
     --background-secondary-alt: #2D325A;
     --background-tertiary: #1B1F38;
 
-    --btn-bg-primary: #2c3263;
+    --btn-bg-primary: var(--background-tertiary);
     --btn-bg-secondary: #202442;
-    --btn-bg-primary-hover: #1b1e35;
-    --btn-bg-secondary-hover: #22295a;
+    --btn-bg-primary-hover: var(--background-secondary);
+    --btn-bg-secondary-hover: var(--background-primary);
 
     --background-modifier-selected: var(--background-secondary);
     --background-modifier-hover: var(--background-primary);
@@ -50,7 +50,7 @@
 
     --theme: 'Nebula';
     --author: 'Loremly';
-    --version: 'v5.3.8';
+    --version: 'v5.4.9';
 
     // ╔══════════════════════╦════════════════════════════════════╗
     // ║ Cosmetic Variables   ║ Format: px, calc()                 ║

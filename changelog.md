@@ -1,7 +1,7 @@
 # Changelog.md
 All notable changes to this project will be documented in this file.
 
-Changelog will only document changes to Nebula's looks.
+Changelog will only document changes to Nebula's file and appearance.(Meaning files other than json,css,scss will not be documented in the Changelogs.)
 
 ## Note
 Commits have will have their own code depending on the amount of change done to the visual elements of Nebula or it's file structure.
@@ -50,38 +50,43 @@ Commits have will have their own code depending on the amount of change done to 
    <tbody>
       <tr>
          <td>2021-11-16 </td>
-         <td>THM-RWRK</td>
+         <td>THM-RWRK (5.0.0)</td>
          <td>Redone Entire theme! Starting back from square one.</td>
       </tr>
       <tr>
          <td>2021-11-16</td>
-         <td>BF | M-U</td>
+         <td>BF | M-U (5.0.3)</td>
          <td>Forgot to add screenshot img / Styled boost progress bar element</td>
       </tr>
       <tr>
          <td>2021-11-16</td>
-         <td>BF</td>
+         <td>BF (5.0.4)</td>
          <td>Fixed disabled channetextarea and replying message</td>
       </tr>
       <tr>
          <td>2021-11-17</td>
-         <td>M-U</td>
+         <td>M-U (5.0.5)</td>
          <td>Polished various elements across Nebula</td>
       </tr>
       <tr>
          <td>2021-11-17</td>
-         <td>M-U</td>
+         <td>M-U(5.0.6)</td>
          <td>Bug fixes and various polishing</td>
       </tr>
       <tr>
          <td>2021-11-18</td>
-         <td>BF | M-U</td>
+         <td>BF | M-U (5.0.7)</td>
          <td>Bug fixes and readjustments / Forgot to style server banners</td>
       </tr>
       <tr>
          <td>2021-11-20</td>
          <td>MJR-U (5.3.8)</td>
          <td>After heavy request, you can now have a normal server list! Bug Fixes, And now fonts have arrived!</td>
+      </tr>
+      <tr>
+         <td>2021-11-22</td>
+         <td>C-U (5.4.9)</td>
+         <td>Done some bug fixes, and tweaked some stuff. Also forgot to style stages so I fixed that!</td>
       </tr>
    </tbody>
 </table>

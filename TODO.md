@@ -4,11 +4,11 @@
 
 #
 
-- [ ] Skins
 - [ ] Web Support  
 - [x] Better useability
-- [ ] Fonts
+- [x] Fonts
 
 ### In Progress
 
 - Addons 
+
