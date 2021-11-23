@@ -88,5 +88,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>C-U (5.4.9)</td>
          <td>Done some bug fixes, and tweaked some stuff. Also forgot to style stages so I fixed that!</td>
       </tr>
+      <tr>
+         <td>2021-11-23</td>
+         <td>C-U (5.4.11)</td>
+         <td>Some polishing and bug fixes</td>
+      </tr>
    </tbody>
 </table>

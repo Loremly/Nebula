@@ -1,16 +1,32 @@
-.app-1q1i1E{
-    background-color: var(--background-primary);
+body{
     border-radius: var(--primary-rounding);
-    margin: var(--primary-spacing);
-    .app-2rEoOp{
-        background-color: transparent;
-        .base-3dtUhz{
+    .appMount-3lHmkl{
+        border-radius: var(--primary-rounding);
+        .app-1q1i1E{
             background-color: var(--background-primary);
             border-radius: var(--primary-rounding);
-            flex-direction: column-reverse;
+            margin: var(--primary-spacing);
+            .app-2rEoOp{
+                border-radius: var(--primary-rounding);
+                background-color: transparent;
+                .base-3dtUhz{
+                    background-color: var(--background-primary);
+                    border-radius: var(--primary-rounding);
+                    flex-direction: column-reverse;
+                }
+                .layers-3q14ss{
+                    border-radius: var(--primary-rounding);
+                }
+            }
         }
-        .layers-3q14ss{
+        .errorPage-u8SYh4{
             border-radius: var(--primary-rounding);
+            margin: var(--primary-spacing);
+            min-height: unset;
+            width: unset;
+            .flexWrapper-2EgxO2{
+                height: calc(100vh - 20px);
+            }
         }
     }
 }

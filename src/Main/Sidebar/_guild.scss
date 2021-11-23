@@ -8,7 +8,18 @@
         [style="height: 84px;"]{
             height: 130px !important;
         }
+        .container-3fNISf{
+            background-color: var(--background-primary);
+            border-radius: var(--primary-rounding);
+            margin: 0 var(--primary-spacing);
+            padding: var(--primary-spacing);
+            margin-top: -3px !important;
+            .divider-3C88Um{
+                display: none;
+            }
+        }
         .containerDefault-3tr_sE{
+            padding-top: var(--primary-spacing);
             .container-2ax-kl,
             .wrapper-PY0fhH{
                 color: var(--interactive-normal);
@@ -69,6 +80,11 @@
             .containerDefault--pIXnN{
                 margin-left: var(--secondary-spacing);
                 width: 100%;
+            }
+        }
+        .containerDefault--pIXnN{
+            .list-2luk8a{
+                padding: 0 var(--primary-spacing);
             }
         }
     }
