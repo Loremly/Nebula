@@ -93,5 +93,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>C-U (5.4.11)</td>
          <td>Some polishing and bug fixes</td>
       </tr>
+      <tr>
+         <td>2021-11-23</td>
+         <td>MJR-U (5.6.12)</td>
+         <td>OS Support is finally here! Also did some polishing and bug fixes again. More to come soon!</td>
+      </tr>
    </tbody>
 </table>

@@ -7,9 +7,16 @@
         margin: var(--primary-spacing);
         margin-left: 0 !important;
         justify-content: center;
+        .customColumn-Rb6toI{
+            max-width: none;
+            .customScroller-26gWhv>div{
+                max-width: none !important;
+            }
+        }
         .contentRegionScroller-26nc1e{
             background-color: transparent;
-            .contentColumnDefault-1VQkGM{
+            .contentColumnDefault-1VQkGM,
+            .contentColumnMinimal-2iX-kP{
                 min-width: calc(100% - 45px);
                 padding: 60px 20px 20px;
             }
@@ -25,6 +32,9 @@
                     border-radius: var(--primary-rounding) !important;
                 }
             }
+        }
+        .hero-EvfTTA{
+            max-width: none;
         }
     }
 }

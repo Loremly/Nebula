@@ -1,9 +1,9 @@
 {
     "name": "Nebula",
     "description": "Round, Deep sea blue, consistent, Nebula!",
-    "version": "5.4.11",
+    "version": "5.6.12",
     "author": "Loremly#9359",
-    "theme": "index.css",
+    "theme": "index.scss",
     "consent": "true",
     "license": "GNU-GPL v3"
 }

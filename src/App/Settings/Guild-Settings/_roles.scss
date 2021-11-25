@@ -1,0 +1,76 @@
+.page-3njELR{
+    max-width: none;
+    .sidebar-dLM-kh{
+        top: calc(var(--tertiary-spacing) + var(--primary-spacing));
+        height: calc(100% - calc(var(--tertiary-spacing) * 1.75));
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--primary-rounding);
+        left: var(--secondary-spacing);
+        width: var(--sidebar-width);
+        position: fixed;
+        border: none;
+        z-index: 1;
+        .titleContainer-2CXtJo{
+            border-radius: var(--primary-rounding);
+            padding: var(--primary-spacing);
+            margin: var(--primary-spacing);
+        }
+        .list-I3aHXn{
+            padding: 0 !important;
+            .side-8zPYf6{
+                width: 100%;
+                .item-PXvHYJ{
+                    margin-left: var(--primary-spacing);
+                    margin: var(--primary-spacing);
+                    margin-top: 0 !important;
+                }
+            }
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+    }
+    .contentContainer-14yMzC{
+        margin-top: var(--primary-spacing);
+        left: 0;
+        .contentWidth-xLB44s{
+            max-width: none;
+            .header-2mZ9Ov{
+                border-radius: var(--primary-rounding);
+                padding: var(--primary-spacing);
+                .top-28JiJ-{
+                    background-color: var(--background-secondary);
+                    border-radius: var(--primary-rounding);
+                    padding: var(--primary-spacing);
+                    justify-content: center;
+                    border: none;
+                    .tabBarItem-2QyJ0U{
+                        border-radius: var(--primary-rounding);
+                        padding: var(--primary-spacing);
+                        text-align: center;
+                        border: none;
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                    }
+                    .tabBarItem-2QyJ0U[aria-selected="true"]{
+                        background-color: var(--background-secondary-alt);
+                    }
+                }
+                .searchContainer-3pUVEQ,
+                .searchContainer-2gy0Sr{
+                    border-radius: 0 0 var(--primary-rounding) var(--primary-rounding);
+                    background-color: var(--background-secondary);
+                    margin: 0;
+                    .container-cMG81i{
+                        background-color: var(--background-secondary-alt);
+                        margin: var(--primary-spacing);
+                    }
+                    button{
+                        margin-right: var(--primary-spacing);
+                    }
+                }
+            }
+        }
+    }
+}

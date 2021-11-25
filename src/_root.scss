@@ -34,8 +34,12 @@
     --interactive-hover: #ffffff6e;
     --interactive-normal: #ffffffc9;
 
+    --background-accent: #333b75;
+
     --text-normal: #d8dee9;
     --text-secondary: #d8dee98a;
+
+    --header-primary: var(--text-normal);
 
     --text-link: var(--text-normal);
 
@@ -50,7 +54,7 @@
 
     --theme: 'Nebula';
     --author: 'Loremly';
-    --version: 'v5.4.11';
+    --version: 'v5.6.12';
 
     // ╔══════════════════════╦════════════════════════════════════╗
     // ║ Cosmetic Variables   ║ Format: px, calc()                 ║
