@@ -1,6 +1,6 @@
 # Nebula v5.6.12
 ### Round, blue, consistent, Nebula!
-![screenshot](/assets/screenshot.png)
+![screenshot](https://i.imgur.com/khePGjR.png)
 ## Table of context
 - [Overview](#overview)
 - [Getting Started](#Getting-Started)
@@ -34,4 +34,4 @@ cd powercord/src/Powercord/themes && git clone https://github.com/Loremly/Nebula
 This project is licensed under the GPL-3.0 License - see the [license.md](https://github.com/Loremly/Nebula/blob/main/LICENSE.MD) file for more details.
 
 ## Support
-Join our fun little Community on [Discord](https://discord.com/invite/UZ3TRN6ffu) for support, or just to hang out!
+Join our fun little Community on [Discord](https://discord.com/invite/powercord) for support, or just to hang out!
