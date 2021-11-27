@@ -41,7 +41,9 @@
         top: 50px;
         .title-29uC1r,
         .input-2A_zIr{
+            max-width: var(--sidebar-width);
             text-transform: capitalize;
+            white-space: normal;
             line-height: normal;
             font-size: 1.4rem;
         }

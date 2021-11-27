@@ -98,5 +98,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>MJR-U (5.6.12)</td>
          <td>OS Support is finally here! Also did some polishing and bug fixes again. More to come soon!</td>
       </tr>
+      <tr>
+         <td>2021-11-26</td>
+         <td>BF (5.6.17)</td>
+         <td>Some bug fixes and polishing.</td>
+      </tr>
    </tbody>
 </table>
