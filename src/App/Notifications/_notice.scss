@@ -4,13 +4,15 @@
     margin-top: var(--primary-spacing);
     box-shadow: none;
 }
-.channelNotice-3I83Cr{
-    background-color: var(--background-secondary-alt);
+.channelNotice-3I83Cr,
+.channelNotice-1-XFjC{
+    background-color: var(--background-secondary-alt) !important;
     margin-top: var(--primary-spacing) !important;
     border-radius: var(--primary-rounding);
     margin: var(--primary-rounding) 0;
     padding: var(--primary-spacing);
     margin-bottom: 0 !important;
+    box-shadow: none;
 }
 .notice-3bPHh-{
     border-radius: var(--primary-rounding);

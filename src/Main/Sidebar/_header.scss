@@ -10,6 +10,9 @@
         box-shadow: none !important;
         margin-top: 0 !important;
         filter: none !important;
+        &:hover{
+            background-color: var(--background-tertiary);
+        }
     }
     .animatedContainer-1NSq4T {
         background-color: var(--background-secondary-alt);

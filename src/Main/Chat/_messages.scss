@@ -1,32 +1,49 @@
-.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
-    max-width: calc(100% - var(--tertiary-spacing));
-    background-color: var(--background-primary);
-    border-radius: var(--primary-rounding);
-    display: inline-block;
-    width: fit-content;
-    padding: 5px 10px ;
-    position: relative;
-    overflow: visible;
-    margin: 0;
-    .mention{
-        border-radius: var(--primary-rounding);
-        background-color: var(--background-tertiary);
+.cozyMessage-3V1Y8y {
+    .contents-2mQqc9 {
+        padding-top: .75rem;
+        .markup-2BOw-j:not(:empty) {
+            max-width: calc(100% - var(--tertiary-spacing));
+            background-color: var(--background-primary);
+            border-radius: var(--primary-rounding);
+            display: inline-block;
+            width: fit-content;
+            padding: 5px 10px;
+            position: relative;
+            overflow: visible;
+            margin: 0;
+            .mention {
+                border-radius: var(--primary-rounding);
+                background-color: var(--background-tertiary);
+            }
+            pre {
+                max-width: 100%;
+                code {
+                    white-space: pre-wrap;
+                }
+            }
+            a {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            
+        }
     }
 }
-.message-2qnXI6{
+.message-2qnXI6 {
     border-radius: var(--primary-rounding);
     transition: 150ms ease;
     margin: 0 var(--primary-spacing);
-    margin-top: .5rem !important;
+    margin-top: 0.5rem !important;
     padding: 5px 5px 5px 4.5rem;
     margin-right: 0 !important;
-    &:hover{
+    &:hover {
         background-color: var(--background-secondary);
     }
 }
-.mentioned-xhSam7{
+.mentioned-xhSam7 {
     border-radius: var(--primary-rounding);
-    &::before{
+    &::before {
         width: 5px;
         margin: var(--primary-spacing);
         border-radius: var(--primary-rounding);
@@ -34,8 +51,8 @@
         right: 0;
     }
 }
-.replying-1x3H0T{
-    &::before{
+.replying-1x3H0T {
+    &::before {
         border-radius: var(--primary-rounding);
         margin: var(--primary-spacing);
         left: unset;

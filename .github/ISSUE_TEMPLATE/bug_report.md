@@ -7,6 +7,7 @@ assignees: ''
 
 ---
 
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
@@ -23,8 +24,11 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Other plugins**
-Do you have any enabled plugins that alter the functionality of Nebula
+**Info**
+- OS: What operating system are you on?
+- Nebula verison (you can check at the bottom of settings)
+- Enabled plugins: 
+- Enabled themes: 
 
-**Additional context**
-Add any other context about the problem here.
+**Additional Information**
+Do you have anything else you'd like to add before submitting?

@@ -19,7 +19,7 @@
                 }
                 &:last-child{
                     &::after{
-                        content: var(--theme)' ' '('var(--version)')';
+                        content: var(--theme)' ' var(--version) ' By ' var(--author);
                         color: var(--text-muted);
                         display: inline-block;
                         line-height: 16px;

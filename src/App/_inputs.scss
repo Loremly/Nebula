@@ -14,14 +14,13 @@
 .bar-2Qqk5Z{
     background-color: var(--background-tertiary) !important;
     .barFill-23-gu-{
-        background-color: var(--background-primary);
+        background-color: var(--background-accent);
     }
 }
-
-svg.slider-TkfMQL svg {
-    display: none;
-}
-  
-.container-3auIfb:not([style*="125"]) {
-    background-color: var(--background-tertiary) !important;
+.control-2BBjec{
+    .slider-TkfMQL{
+        svg{
+            display: none;
+        }
+    }
 }

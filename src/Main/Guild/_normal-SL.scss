@@ -90,8 +90,9 @@
     width: calc(var(--sidebar-width) - 30px);
     top: calc(var(--primary-spacing) * 10);
     padding-left: var(--primary-spacing);
-    font-weight: 400;
-    font-size: 1rem;
+    color: var(--text-normal);
+    font-weight: bold;
+    font-size: 1.1rem;
     text-align: left;
     position: fixed;
     height: 58px;
