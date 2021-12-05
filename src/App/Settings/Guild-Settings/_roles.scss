@@ -4,8 +4,9 @@
         top: calc(var(--tertiary-spacing) + var(--primary-spacing));
         height: calc(100% - calc(var(--tertiary-spacing) * 1.75));
         background-color: var(--background-secondary-alt);
+        margin-top: calc(var(--tertiary-spacing) * 4.5);
+        left: calc(var(--tertiary-spacing) * 2.56);
         border-radius: var(--primary-rounding);
-        left: var(--secondary-spacing);
         width: var(--sidebar-width);
         position: fixed;
         border: none;

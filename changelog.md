@@ -118,5 +118,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>BF (5.7.21)</td>
          <td>Forgot that Guild Settings existed. Also forgot compile the files for BD users</td>
       </tr>
+    <tr>
+         <td>2021-12-05</td>
+         <td>BF (5.7.22)</td>
+         <td>Fixed roles sidebar in guild settings</td>
+      </tr>
    </tbody>
 </table>
