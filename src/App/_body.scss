@@ -13,9 +13,21 @@ body{
                     background-color: var(--background-primary);
                     border-radius: var(--primary-rounding);
                     flex-direction: column-reverse;
+                    .content-98HsJk{
+                        border-radius: var(--primary-rounding);
+                    }
                 }
                 .layers-3q14ss{
                     border-radius: var(--primary-rounding);
+                    .layer-3QrUeG{
+                        transform: none !important;
+                        opacity: 1 !important;
+                    }
+                    .animating-rRxada{
+                        transform: none !important;
+                        will-change: unset;
+                        opacity: 1;
+                    }
                 }
             }
         }
