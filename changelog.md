@@ -112,5 +112,11 @@ Commits have will have their own code depending on the amount of change done to 
          <td>2021-12-05</td>
          <td>MJR-U | BF (5.7.20)</td>
          <td>Fixed an annoying bug where if you leave settings, some elements will be glitched out of position. I also redid the settings page to make it look more like chat. Note: Powercord tabs will not have a title because they do not have a global attribute. From now on I will make more transparent commit descriptions. Why? So users know whats change and whats not!<td>
+      </tr>
+      <tr>
+         <td>2021-12-05</td>
+         <td>BF (5.7.21)</td>
+         <td>Forgot that Guild Settings existed. Also forgot compile the files for BD users</td>
+      </tr>
    </tbody>
 </table>
