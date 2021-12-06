@@ -1,9 +1,11 @@
 # Changelog.md
+
 All notable changes to this project will be documented in this file.
 
 Changelog will only document changes to Nebula's file and appearance.(Meaning files other than json,css,scss will not be documented in the Changelogs.)
 
 ## Note
+
 Commits have will have their own code depending on the amount of change done to the visual elements of Nebula or it's file structure.
 
 <table>
@@ -118,10 +120,15 @@ Commits have will have their own code depending on the amount of change done to 
          <td>BF (5.7.21)</td>
          <td>Forgot that Guild Settings existed. Also forgot compile the files for BD users</td>
       </tr>
-    <tr>
+      <tr>
          <td>2021-12-05</td>
          <td>BF (5.7.22)</td>
          <td>Fixed roles sidebar in guild settings</td>
+      </tr>
+      <tr>
+         <td>2021-12-05</td>
+         <td>BF (5.7.23)</td>
+         <td>Fixed changed classes in sidebar, styled member list in chats with ongoing calls.</td>
       </tr>
    </tbody>
 </table>
