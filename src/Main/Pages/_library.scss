@@ -10,6 +10,11 @@
         padding: 10px;
     }
 }
+.libraryHeader-3g95kE{
+    &::before{
+        display: none;
+    }
+}
 .scroller-2XE8rp{
     background-color: var(--background-secondary-alt);
     border-radius: var(--primary-rounding);

@@ -1,0 +1,15 @@
+.guilds-1SWlCJ{
+    background-color: var(--background-primary);
+    border-radius: var(--primary-rounding);
+    margin-right: var(--primary-spacing);
+    .scroller-1Bvpku{
+        margin-top: calc(var(--tertiary-spacing) * 2.9);
+        padding: var(--primary-spacing) 0;
+        background-color: transparent;
+        contain: none;
+        .tutorialContainer-11ICd5{
+            top: calc(var(--tertiary-spacing) + var(--primary-spacing));
+            position: fixed;
+        }
+    }
+}

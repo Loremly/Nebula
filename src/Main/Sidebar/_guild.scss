@@ -2,18 +2,18 @@
     background-color: transparent;
     .scroller-RmtA4e {
         background-color: var(--background-secondary-alt);
+        margin-top: calc(var(--primary-spacing) + 1px) !important;
         border-radius: var(--primary-rounding);
         margin: var(--primary-spacing) 0;
         margin-bottom: 0 !important;
         [style="height: 84px;"] {
-            height: 130px !important;
+            height: 140px !important;
         }
         .container-3qpZp9 {
             background-color: var(--background-primary);
             border-radius: var(--primary-rounding);
             padding: var(--primary-spacing);
-            margin: var(--primary-spacing);
-            margin-bottom: 0 !important;
+            margin: 0 var(--primary-spacing);
             .divider-3HbLTj {
                 display: none;
             }

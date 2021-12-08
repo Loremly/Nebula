@@ -55,7 +55,7 @@
 
     --theme: 'Nebula';
     --author: 'Loremly';
-    --version: '(v5.7.23)';
+    --version: '(v5.9.25)';
 
     // ╔══════════════════════╦════════════════════════════════════╗
     // ║ Cosmetic Variables   ║ Format: px, calc()                 ║
@@ -74,10 +74,6 @@
     --transition-normal: 250ms;
     --transition-slow: calc(var(--transition-normal) * 2) ease;
     --transition-fast: cal(var(--transition-normal) / 2) ease;
-
-    --server-size: var(--HSL-server-icon-size, var(--HSL-size, 40px));
-    --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
-    --server-container: calc(var(--server-size) + 20px);
 
     --saturation-factor: 1 !important;
 }

@@ -4,18 +4,53 @@
     padding: var(--primary-spacing);
     margin: var(--primary-spacing);
     margin-bottom: 0 !important;
+    justify-content: flex-end;
     width: unset;
     .children-19S4PO{
+        left: calc(var(--tertiary-spacing) * 2.6);
+        top: calc(var(--tertiary-spacing) * 1.7);
+        position: fixed;
+        .title-29uC1r{
+            padding-left: var(--primary-spacing);
+            text-transform: capitalize;
+            letter-spacing: .8px;
+            font-size: 1.35rem;
+        }
+        .container-3FPLD3{
+            width: calc(var(--sidebar-width) - var(--primary-spacing));
+            padding-left: var(--primary-spacing);
+        }
+        .topic-TCb_qw{
+            left: calc(var(--tertiary-spacing) * 9.4);
+            top: calc(var(--tertiary-spacing) * 1.65);
+            max-width: 570px;
+            position: fixed;
+        }
+        .topPill-30KHOu{
+            left: calc(var(--tertiary-spacing) * 9.4);
+            top: calc(var(--tertiary-spacing) * 1.56);
+            position: fixed;   
+        }
+        .status-1XNdyw{
+            left: calc(var(--tertiary-spacing) * 9.65);
+            top: calc(var(--tertiary-spacing) * 1.65);
+            position: fixed;
+        }
+        .akaBadge-1M-1Gw{
+            left: calc(var(--tertiary-spacing) * 10);
+            top: calc(var(--tertiary-spacing) * 1.65);
+            position: fixed;
+        }
+        .nicknames-1XK4Zt{
+            left: calc(var(--tertiary-spacing) * 11.1);
+            top: calc(var(--tertiary-spacing) * 1.65);
+            position: fixed;
+        }
         .iconWrapper-2OrFZ1,
         .divider-3FBTu8,
-        .topic-TCb_qw,
         &::after{
             display: none;
         } 
-        .title-29uC1r{
-            text-transform: capitalize;
-            letter-spacing: .8px;
-        }
     }
     .toolbar-1t6TWx{
         .searchFilter-2ESiM3,

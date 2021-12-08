@@ -130,5 +130,10 @@ Commits have will have their own code depending on the amount of change done to 
          <td>BF (5.7.23)</td>
          <td>Fixed changed classes in sidebar, styled member list in chats with ongoing calls.</td>
       </tr>
-   </tbody>
+      <tr>
+        <td>2021-12-07</td>
+        <td>MJR-U (5.9.25)</td>
+        <td>Remove alot of lines and added a few for slight optimization. I've moved the settings button to the serverlist, and redid the entire serverlist file. Polishing and other bug fixes are included. This commit will be counted as a MJR-U due to the amount of files changed.</td>
+      </tr>
+   </body>
 </table>

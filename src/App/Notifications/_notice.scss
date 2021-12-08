@@ -5,7 +5,9 @@
     box-shadow: none;
 }
 .channelNotice-3I83Cr,
-.channelNotice-1-XFjC{
+.channelNotice-1-XFjC,
+.channelNotice-I0gkZS{
+    background-position: center var(--secondary-spacing) !important;
     background-color: var(--background-secondary-alt) !important;
     margin-top: var(--primary-spacing) !important;
     border-radius: var(--primary-rounding);
@@ -13,6 +15,11 @@
     padding: var(--primary-spacing);
     margin-bottom: 0 !important;
     box-shadow: none;
+    .message-Pxv_7N{
+        margin-top: 90px;
+        width: 100%;
+        left: 0;
+    }
 }
 .notice-3bPHh-{
     border-radius: var(--primary-rounding);

@@ -46,14 +46,30 @@
                 background-color: var(--background-secondary);
             }
         }
+        .categoryItem-ONe8JV{
+            &:nth-child(2){
+                &::before{
+                    padding: calc(var(--secondary-spacing) + 2px) 0 0 var(--primary-spacing);
+                    color: var(--header-primary);
+                    text-transform: capitalize;
+                    letter-spacing: 0.8px;
+                    position: absolute;
+                    content: 'Home';
+                    font-size: 1.35rem;
+                    line-height: 20px;
+                    font-weight: 600;
+                    top: 0;
+                }
+            }
+        }
         .clickable-1JJAn8:hover .layout-2DM8Md{
             background-color: transparent !important;
         }
         .selectedCategoryItem-28UllF{
             background-color: var(--background-secondary-alt) !important;
-        }
-        .selectedCategoryItem-28UllF .itemInner-1XfZdz{
-            background-color: transparent;
+            .itemInner-1XfZdz{
+                background-color: transparent;
+            }
         }
         &::-webkit-scrollbar{
             display: none;

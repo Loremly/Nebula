@@ -3,6 +3,9 @@
         foreignObject{
             border-radius: var(--primary-rounding);
             mask: none;
+            rect{
+                fill: var(--background-secondary) !important;
+            }
         }
     }
     .upperBadge-2XnnGB{
@@ -22,6 +25,7 @@
     }
 }
 .circleIconButton-hZmpE8{
+    background-color: var(--background-secondary);
     color: var(--interactive-normal);
     &:hover{
         background-color: var(--background-secondary);

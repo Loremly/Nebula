@@ -4,11 +4,55 @@
     .container-3baos1{
         border-radius: 0 0 var(--primary-rounding) var(--primary-rounding);
         background-color: var(--background-primary);
-        top: calc(var(--tertiary-spacing) * 2.96);
+        top: calc(var(--tertiary-spacing) * 2.93);
         width: calc(var(--sidebar-width) - 36px);
         left: var(--secondary-spacing);
         position: absolute;
         z-index: 100;
+        .button-14-BFJ:last-child{
+            background-color: var(--background-secondary);
+            left: calc(var(--primary-spacing) + 12px);
+            top: calc(var(--tertiary-spacing) * 2.7);
+            border-radius: var(--primary-rounding);
+            transition: 275ms ease;
+            position: fixed;
+            height: 48px;
+            width: 48px;
+            .contents-18-Yxp{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                height: 100%;
+                width: 100%;
+                svg{
+                    height: 28px;
+                    width: 28px;
+                }
+            }
+            &::before{
+                transition: 200ms ease;
+                background-color: white;
+                border-radius: 0 4px 4px 0;
+                position: absolute;
+                pointer-events: none;
+                transform: scaleX(0);
+                height: 0;
+                content: '';
+                width: 4px;
+                left: -11px;
+            }
+            &:hover{
+                background-color: var(--background-tertiary);
+                &::before{
+                    background-color: white;
+                    border-radius: 0 4px 4px 0;
+                    transform-origin: bottom;
+                    transform: scaleX(1);
+                    height: 24px;
+                    content: '';
+                }
+            }
+        }
     }
     .wrapper-24pKcD{
         background-color: var(--background-secondary-alt);

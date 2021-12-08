@@ -49,3 +49,23 @@
         }
     }
 }
+.container-1r6BKw.transparent-2ZlE3R{
+    width: calc(100% - var(--secondary-spacing));
+    background-color: var(--background-primary);
+    border-radius: var(--primary-rounding);
+    margin: var(--primary-spacing);
+    .iconWrapper-2OrFZ1,
+    .divider-3FBTu8,
+    &::after{
+        display: none;
+    } 
+    .toolbar-1t6TWx{
+        .searchFilter-2ESiM3,
+        .searchAnswer-3Dz2-q{
+            background-color: var(--background-accent) !important;
+        }
+        [href="https://support.discord.com"]{
+            display: none;
+        }
+    }
+}

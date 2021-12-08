@@ -1,29 +1,31 @@
-body{
+body {
     border-radius: var(--primary-rounding);
-    .appMount-3lHmkl{
+    .appMount-3lHmkl {
         border-radius: var(--primary-rounding);
-        .app-1q1i1E{
+        .app-1q1i1E {
             background-color: var(--background-primary);
             border-radius: var(--primary-rounding);
             margin: var(--primary-spacing);
-            .app-2rEoOp{
+            .app-2rEoOp {
                 border-radius: var(--primary-rounding);
                 background-color: transparent;
-                .base-3dtUhz{
-                    background-color: var(--background-primary);
+                .layers-3q14ss {
                     border-radius: var(--primary-rounding);
-                    flex-direction: column-reverse;
-                    .content-98HsJk{
-                        border-radius: var(--primary-rounding);
-                    }
-                }
-                .layers-3q14ss{
-                    border-radius: var(--primary-rounding);
-                    .layer-3QrUeG{
+                    .layer-3QrUeG {
                         transform: none !important;
                         opacity: 1 !important;
+                        .container-2lgZY8 {
+                            .base-3dtUhz {
+                                background-color: var(--background-primary);
+                                border-radius: var(--primary-rounding);
+                                flex-direction: column-reverse;
+                                .content-98HsJk {
+                                    border-radius: var(--primary-rounding);
+                                }
+                            }
+                        }
                     }
-                    .animating-rRxada{
+                    .animating-rRxada {
                         transform: none !important;
                         will-change: unset;
                         opacity: 1;
@@ -31,12 +33,12 @@ body{
                 }
             }
         }
-        .errorPage-u8SYh4{
+        .errorPage-u8SYh4 {
             border-radius: var(--primary-rounding);
             margin: var(--primary-spacing);
             min-height: unset;
             width: unset;
-            .flexWrapper-2EgxO2{
+            .flexWrapper-2EgxO2 {
                 height: calc(100vh - 20px);
             }
         }

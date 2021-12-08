@@ -1,15 +1,16 @@
 .privateChannels-1nO12o{
-    margin-top: calc(var(--tertiary-spacing) * 1.5);
     background-color: transparent;
     .searchBar-6Kv8R2{
         border-radius: 0 0 var(--primary-rounding) var(--primary-rounding);
-        padding-bottom: calc(var(--tertiary-spacing) * 1.6);
         background-color: var(--background-secondary-alt);
+        padding: calc(var(--tertiary-spacing) * 1.55) 0;
         box-shadow: none;
         z-index: 0;
         .searchBarComponent-32dTOx{
             border-radius: var(--primary-rounding) var(--primary-rounding) 0 0;
+            width: calc(100% - var(--secondary-spacing));
             background-color: var(--background-primary);
+            margin-left: var(--primary-spacing);
             font-size: 16px;
             height: 50px;
         }
@@ -26,8 +27,10 @@
             justify-content: center;
             margin: 0 var(--primary-spacing);
             .channel-2QD9_O{
-                max-width: var(--sidebar-content-width-1);
+                max-width: 100%;
                 margin: 2px 0;
+                height: 44px;
+                width: 100%;
             }
             .selected-aXhQR6:not([href*="/channels/@me/"]) .layout-2DM8Md{
                 background-color: var(--background-secondary) !important;
@@ -36,7 +39,7 @@
                 &:not([href*="/channels/@me/"]) {
                     flex-grow: 1;
                     width: 20%;
-                    margin: var(--primary-spacing) 0px 0 0px;
+                    margin: var(--primary-spacing) 0px;
                     [class*="content-"] {
                         display: none;
                     }
@@ -45,9 +48,6 @@
                         border-radius: var(--primary-rounding);
                         justify-content: center;
                         padding: 0px !important;
-                        &:hover{
-                            background-color: var(--background-secondary);
-                        }
                     }
                 }
             }
@@ -61,7 +61,7 @@
                 width: 100%;
             }
             & > a[href='/library'] {
-                margin: var(--primary-spacing) var(--primary-spacing) 0 var(--primary-spacing);
+                margin: var(--primary-spacing) 0 0 var(--primary-spacing);
                 .linkButtonIcon-Mlm5d6 {
                     position: relative;
                     bottom: 1px;
@@ -82,10 +82,7 @@
                 }
             }
             & > a[href='/store'] {
-                .linkButtonIcon-Mlm5d6 {
-                    position: relative;
-                    bottom: 1px;
-                }
+                display: none;
             }
         }
         [href="/channels/@me"]{
@@ -98,13 +95,9 @@
                 }
             }
         }
-        [style="height: 8px;"]{
-            height: var(--primary-spacing) !important;
-        }
         .channel-2QD9_O{
             border-radius: var(--primary-rounding);
-            margin: 0 var(--primary-spacing);
-            max-width: unset;
+            margin: 2px var(--primary-spacing);
         }
         &::-webkit-scrollbar{
             display: none;
