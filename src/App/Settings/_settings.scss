@@ -38,6 +38,7 @@
                             padding-left: var(--primary-spacing) !important;
                             padding: var(--secondary-spacing);
                             padding-top: 20px !important;
+                            font-size: 24px;
                             margin: 0;
                         }
                         h5{
@@ -45,8 +46,9 @@
                             padding: var(--secondary-spacing);
                             color: var(--header-primary);
                             padding-top: 26px !important;
+                            text-transform: capitalize;
                             font-weight: 600;
-                            font-size: 15px;
+                            font-size: 20px;
                             margin: 0;
                         }
                     }
@@ -86,6 +88,21 @@
             .hero-EvfTTA{
                 max-width: none;
             }
+        }
+        &::before{
+            width: calc(var(--sidebar-width) - calc(var(--secondary-spacing) + var(--secondary-spacing)));
+            background-color: var(--background-secondary-alt);
+            left: calc(var(--tertiary-spacing) * 2.7);
+            top: calc(var(--primary-spacing) * 6.4);
+            color: var(--text-normal);
+            content: 'Other Settings';
+            letter-spacing: .6px;
+            line-height: 20px;
+            font-weight: 600;
+            text-align: left;
+            font-size: 24px;
+            position: fixed;
+            padding: 5px;
         }
     }
     

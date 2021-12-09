@@ -30,26 +30,23 @@
                 }
             }
             &::before{
-                transition: 200ms ease;
-                background-color: white;
+                background-color: var(--header-primary);
                 border-radius: 0 4px 4px 0;
-                position: absolute;
+                transition: 200ms ease;
                 pointer-events: none;
                 transform: scaleX(0);
-                height: 0;
+                position: absolute;
                 content: '';
-                width: 4px;
                 left: -11px;
+                width: 4px;
+                height: 0;
             }
             &:hover{
                 background-color: var(--background-tertiary);
                 &::before{
-                    background-color: white;
-                    border-radius: 0 4px 4px 0;
                     transform-origin: bottom;
                     transform: scaleX(1);
-                    height: 24px;
-                    content: '';
+                    height: 20px;
                 }
             }
         }

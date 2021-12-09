@@ -135,5 +135,10 @@ Commits have will have their own code depending on the amount of change done to 
         <td>MJR-U (5.9.25)</td>
         <td>Remove alot of lines and added a few for slight optimization. I've moved the settings button to the serverlist, and redid the entire serverlist file. Polishing and other bug fixes are included. This commit will be counted as a MJR-U due to the amount of files changed.</td>
       </tr>
+      <tr>
+        <td>2021-12-09</td>
+        <td>BF (5.9.26)</td>
+        <td> Just did some repositioning, and bug fixes. I added an "Other Settings" title for setting tabs that are client mods since I cannot keep up with every tab guys own. And since there's no universal attribute/class for it.</td>
+      </tr>
    </body>
 </table>
