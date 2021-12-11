@@ -1,60 +1,59 @@
 .cozyMessage-3V1Y8y {
-    .contents-2mQqc9 {
-        .markup-2BOw-j:not(:empty) {
-            max-width: calc(100% - var(--tertiary-spacing));
-            background-color: var(--background-secondary);
-            border-radius: var(--primary-rounding);
-            display: inline-block;
-            position: relative;
-            padding: 5px 10px;
-            overflow: visible;
-            margin: 0;
-            .mention {
-                border-radius: var(--primary-rounding);
-                background-color: var(--background-tertiary);
-            }
-            pre {
-                max-width: 100%;
-                code {
-                    white-space: pre-wrap;
-                }
-            }
-            a {
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-            
+  .contents-2mQqc9 {
+    .markup-2BOw-j:not(:empty) {
+      max-width: calc(100% - var(--tertiary-spacing));
+      background-color: transparent;
+      border-radius: var(--primary-rounding);
+      display: inline-block;
+      position: relative;
+      padding: 0px 0px;
+      overflow: visible;
+      margin: 0;
+      .mention {
+        border-radius: var(--primary-rounding);
+        background-color: var(--background-tertiary);
+      }
+      pre {
+        max-width: 100%;
+        code {
+          white-space: pre-wrap;
         }
+      }
+      a {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
+  }
 }
 .message-2qnXI6 {
-    border-radius: var(--primary-rounding);
-    transition: 150ms ease;
-    margin: 0 var(--primary-spacing);
-    margin-top: 0.5rem !important;
-    padding: 5px 5px 5px 4.5rem;
-    margin-right: 0 !important;
-    &:hover {
-        background-color: var(--background-secondary);
-    }
+  border-radius: var(--primary-rounding);
+  transition: 150ms ease;
+  margin: 0 var(--primary-spacing);
+  margin-top: 0.25rem !important;
+  padding: 5px 5px 5px 4.5rem;
+  margin-right: 0 !important;
+  &:hover {
+    background-color: var(--background-secondary);
+  }
 }
 .mentioned-xhSam7 {
+  border-radius: var(--primary-rounding);
+  &::before {
+    width: 5px;
+    margin: var(--primary-spacing);
     border-radius: var(--primary-rounding);
-    &::before {
-        width: 5px;
-        margin: var(--primary-spacing);
-        border-radius: var(--primary-rounding);
-        left: unset;
-        right: 0;
-    }
+    left: unset;
+    right: 0;
+  }
 }
 .replying-1x3H0T {
-    &::before {
-        border-radius: var(--primary-rounding);
-        margin: var(--primary-spacing);
-        left: unset;
-        width: 5px;
-        right: 0;
-    }
+  &::before {
+    border-radius: var(--primary-rounding);
+    margin: var(--primary-spacing);
+    left: unset;
+    width: 5px;
+    right: 0;
+  }
 }

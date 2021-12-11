@@ -1,48 +1,48 @@
-.wrapper-25eVIn{
-    svg{
-        foreignObject{
-            border-radius: var(--primary-rounding);
-            mask: none;
-            rect{
-                fill: var(--background-secondary) !important;
-            }
-        }
+.wrapper-25eVIn {
+  svg {
+    foreignObject {
+      border-radius: 45%;
+      mask: none;
+      rect {
+        fill: var(--background-secondary) !important;
+      }
     }
-    .upperBadge-2XnnGB{
-        right: -5px;
-        top: -5px;
-        .iconBadge-1Prgh2{
-            background-color: var(--background-secondary);
-            border-radius: var(--primary-rounding);
-        }
+  }
+  .upperBadge-2XnnGB {
+    right: -5px;
+    top: -5px;
+    .iconBadge-1Prgh2 {
+      background-color: var(--background-secondary);
+      border-radius: var(--primary-rounding);
     }
-    .lowerBadge-29hYVK{
-        bottom: -5px;
-        right: -5px;
-        .numberBadge-2s8kKX{
-            border-radius: var(--primary-rounding);
-        }
+  }
+  .lowerBadge-29hYVK {
+    bottom: -5px;
+    right: -5px;
+    .numberBadge-2s8kKX {
+      border-radius: var(--primary-rounding);
     }
+  }
 }
-.circleIconButton-hZmpE8{
+.circleIconButton-hZmpE8 {
+  background-color: var(--background-secondary);
+  color: var(--interactive-normal);
+  &:hover {
     background-color: var(--background-secondary);
-    color: var(--interactive-normal);
-    &:hover{
-        background-color: var(--background-secondary);
-        color: var(--interactive-hover);
-    }
+    color: var(--interactive-hover);
+  }
 }
-.childWrapper-anI2G9{
-    &:hover{
-        background-color: var(--background-secondary) !important;
-    }
-}
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9{
+.childWrapper-anI2G9 {
+  &:hover {
     background-color: var(--background-secondary) !important;
+  }
 }
-.wrapperSimple-19ogV2{
-    border-radius: 0;
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  background-color: var(--background-secondary) !important;
 }
-.circleIconButton-hZmpE8.selected-3mFF3I{
-    background-color: var(--background-tertiary) !important;
+.wrapperSimple-19ogV2 {
+  border-radius: 0;
+}
+.circleIconButton-hZmpE8.selected-3mFF3I {
+  background-color: var(--background-tertiary) !important;
 }

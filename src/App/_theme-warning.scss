@@ -1,131 +1,133 @@
 @keyframes settingsflash {
-	0% {
-		box-shadow: 0 2px 10px rgba(45, 50, 90, 0.2),0 0 0 2px rgba(45,50,90,0.3);
-	}
-	70% {
-		box-shadow: 0 0 20px 15px rgba(45,50,90,0.1),0 0 0 6px rgba(45,50,90,0.2);
-	}
-	100% {
-		box-shadow: 0 0 20px 15px rgba(45,50,90,0),0 0 0 6px rgba(45,50,90,0.1);
-	}
+  0% {
+    box-shadow: 0 2px 10px rgba(45, 50, 90, 0.2),
+      0 0 0 2px rgba(45, 50, 90, 0.3);
+  }
+  70% {
+    box-shadow: 0 0 20px 15px rgba(45, 50, 90, 0.1),
+      0 0 0 6px rgba(45, 50, 90, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 20px 15px rgba(45, 50, 90, 0),
+      0 0 0 6px rgba(45, 50, 90, 0.1);
+  }
 }
 .theme-light {
-	.layer-3QrUeG {
-		&:first-of-type {
-			&::before {
-				content: "Nebula does not yet support light mode. Please go back to dark mode. To enable it, go into Settings -> Appearance";
-				position: fixed;
-				text-align: center;
-				width: 400px;
-				height: 30px;
-				top: 50%;
-				left: 50%;
-				background: var(--background-primary);
-				transform: translate(-50%, -50%);
-				color: #FFFFFF;
-				padding: 17px 16px 20px 13.5px;
-				box-shadow: 0 2px 10px var(--background-secondary-alt);
-				border: 2.5px solid var(--background-secondary-alt);
-				border-radius: 4px;
-				z-index: 2;
-			}
-		}
-	}
-	.app-2rEoOp {
-		.layer-3QrUeG {
-			&:first-of-type {
-				* {
-					&::before {
-						visibility: hidden !important;
-					}
-					&::after {
-						visibility: hidden !important;
-					}
-					visibility: hidden !important;
-				}
-				background-color: var(--background-tertiary) !important;
-			}
-		}
-		.container-3baos1 {
-			>.noWrap-3jynv6 {
-				>.button-14-BFJ {
-					&:nth-child(3) {
-						position: fixed;
-						left: 50%;
-						top: 50%;
-						transform: translate(-50%, -50%);
-						margin-top: 70px;
-						width: 220px;
-						height: 40px;
-						visibility: visible !important;
-						background: var(--background-secondary-alt) !important;
-						border-radius: 4px;
-						animation: settingsflash 1s ease infinite;
-						opacity: 1;
-						&::before {
-							position: absolute;
-							content: "GO TO SETTINGS";
-							display: flex;
-							justify-content: center;
-							align-items: center;
-							width: 230px;
-							height: 14px;
-							border-radius: 5px;
-							top: 50%;
-							left: 50%;
-							transform: translate(-50%, -50%);
-							visibility: visible !important;
-							font-size: 17px;
-							font-weight: 700;
-							color: #FFFFFF;
-							text-align: center;
-						}
-					}
-				}
-			}
-		}
-	}
-	.preview-2nSL_2.cardPrimaryOutline-29Ujqw+.marginTop40-i-78cZ {
-		.radioGroup-1GBvlr {
-			.cardPrimaryEditable-3KtE4g {
-				&:first-of-type {
-					animation: settingsflash 1s ease infinite;
-					background: #F04747;
-					border-color: #F04747;
-					animation: settingsflash 1s ease infinite;
-					background: #F04747;
-					border-color: #F04747;
-					color: #FFFFFF;
-				}
-			}
-			.item-26Dhrx {
-				&:first-of-type {
-					animation: settingsflash 1s ease infinite;
-					background: #F04747;
-					border-color: #F04747;
-					animation: settingsflash 1s ease infinite;
-					background: #F04747;
-					border-color: #F04747;
-					color: #FFFFFF;
-				}
-			}
-		}
-	}
-	[aria-controls="Appearance-tab"] {
-		border: 2px solid #F04747;
-		animation: settingsflash 1s ease infinite;
-	}
-	.children-rWhLdy {
-		>.marginTop40-i-78cZ {
-			&:nth-child(2) {
-				>div {
-					>div[tabindex="-1"] 
-					&:not(:nth-child(3)){
-						border: 2px solid #F04747;
-						animation: settingsflash 1s ease infinite;
-					}
-				}
-			}
-		}
-	}
+  .layer-3QrUeG {
+    &:first-of-type {
+      &::before {
+        content: "Nebula does not yet support light mode. Please go back to dark mode. To enable it, go into Settings -> Appearance";
+        position: fixed;
+        text-align: center;
+        width: 400px;
+        height: 30px;
+        top: 50%;
+        left: 50%;
+        background: var(--background-primary);
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        padding: 17px 16px 20px 13.5px;
+        box-shadow: 0 2px 10px var(--background-secondary-alt);
+        border: 2.5px solid var(--background-secondary-alt);
+        border-radius: 4px;
+        z-index: 2;
+      }
+    }
+  }
+  .app-2rEoOp {
+    .layer-3QrUeG {
+      &:first-of-type {
+        * {
+          &::before {
+            visibility: hidden !important;
+          }
+          &::after {
+            visibility: hidden !important;
+          }
+          visibility: hidden !important;
+        }
+        background-color: var(--background-tertiary) !important;
+      }
+    }
+    .container-3baos1 {
+      > .noWrap-3jynv6 {
+        > .button-14-BFJ {
+          &:nth-child(3) {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            margin-top: 70px;
+            width: 220px;
+            height: 40px;
+            visibility: visible !important;
+            background: var(--background-secondary-alt) !important;
+            border-radius: 4px;
+            animation: settingsflash 1s ease infinite;
+            opacity: 1;
+            &::before {
+              position: absolute;
+              content: "GO TO SETTINGS";
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 230px;
+              height: 14px;
+              border-radius: 5px;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              visibility: visible !important;
+              font-size: 17px;
+              font-weight: 700;
+              color: #ffffff;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .preview-2nSL_2.cardPrimaryOutline-29Ujqw + .marginTop40-i-78cZ {
+    .radioGroup-1GBvlr {
+      .cardPrimaryEditable-3KtE4g {
+        &:first-of-type {
+          animation: settingsflash 1s ease infinite;
+          background: #f04747;
+          border-color: #f04747;
+          animation: settingsflash 1s ease infinite;
+          background: #f04747;
+          border-color: #f04747;
+          color: #ffffff;
+        }
+      }
+      .item-26Dhrx {
+        &:first-of-type {
+          animation: settingsflash 1s ease infinite;
+          background: #f04747;
+          border-color: #f04747;
+          animation: settingsflash 1s ease infinite;
+          background: #f04747;
+          border-color: #f04747;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  [aria-controls="Appearance-tab"] {
+    border: 2px solid #f04747;
+    animation: settingsflash 1s ease infinite;
+  }
+  .children-rWhLdy {
+    > .marginTop40-i-78cZ {
+      &:nth-child(2) {
+        > div {
+          > div[tabindex="-1"] &:not(:nth-child(3)) {
+            border: 2px solid #f04747;
+            animation: settingsflash 1s ease infinite;
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,63 +1,63 @@
-.sidebarRegion-VFTUkN{
-    margin-top: calc(var(--tertiary-spacing) * 4.8) !important;
-    background-color: var(--background-secondary-alt);
-    border-radius: var(--primary-rounding);
-    margin: var(--primary-spacing);
-    width: var(--sidebar-width);
-    justify-content: center;
-    pointer-events: all;
-    flex: none;
-    .sidebarRegionScroller-3MXcoP{
-        background: transparent;
-        width: 100%;
-        .sidebar-CFHs9e{
-            padding: 0 var(--primary-spacing);
-            padding-top: 30px !important;
+.sidebarRegion-VFTUkN {
+  margin-top: calc(var(--tertiary-spacing) * 4.8) !important;
+  background-color: var(--background-secondary-alt);
+  border-radius: var(--primary-rounding);
+  margin: var(--primary-spacing);
+  width: var(--sidebar-width);
+  justify-content: center;
+  pointer-events: all;
+  flex: none;
+  .sidebarRegionScroller-3MXcoP {
+    background: transparent;
+    width: 100%;
+    .sidebar-CFHs9e {
+      padding: 0 var(--primary-spacing);
+      padding-top: 30px !important;
+      width: 100%;
+      [aria-controls="subscriptions-tab"][aria-selected="true"],
+      [aria-controls="discord-nitro-tab"][aria-selected="true"],
+      [aria-controls="nitro-server-boost-tab"][aria-selected="true"],
+      [aria-controls="library-inventory-tab"][aria-selected="true"],
+      [aria-controls="billing-tab"][aria-selected="true"] {
+        &::before {
+          border-radius: var(--primary-rounding) var(--primary-rounding) 0 0;
+          width: calc(var(--sidebar-width) - var(--secondary-spacing));
+          background-color: var(--background-secondary-alt);
+          top: calc(var(--primary-spacing) * 5);
+          content: "Billing Settings";
+          color: var(--text-normal);
+          letter-spacing: 0.6px;
+          align-items: center;
+          position: fixed;
+          line-height: 20px;
+          font-weight: 600;
+          text-align: left;
+          font-size: 20px;
+          display: flex;
+          padding: 10px;
+          height: 40px;
+          left: 102px;
+        }
+      }
+      .info-1VyQPT {
+        text-transform: none;
+        .size12-3cLvbJ {
+          text-transform: capitalize;
+        }
+        &:last-child {
+          &::after {
+            content: var(--theme) " " var(--version) " By " var(--author);
+            color: var(--text-muted);
+            display: inline-block;
+            line-height: 16px;
+            font-size: 12px;
             width: 100%;
-            [aria-controls="subscriptions-tab"][aria-selected="true"],
-            [aria-controls="discord-nitro-tab"][aria-selected="true"],
-            [aria-controls="nitro-server-boost-tab"][aria-selected="true"],
-            [aria-controls="library-inventory-tab"][aria-selected="true"],
-            [aria-controls="billing-tab"][aria-selected="true"]{
-                &::before{
-                    border-radius: var(--primary-rounding) var(--primary-rounding) 0 0;
-                    width: calc(var(--sidebar-width) - var(--secondary-spacing));
-                    background-color: var(--background-secondary-alt);
-                    top: calc(var(--primary-spacing) * 5);
-                    content: 'Billing Settings';
-                    color: var(--text-normal);
-                    letter-spacing: .6px;
-                    align-items: center;
-                    position: fixed;
-                    line-height: 20px;
-                    font-weight: 600;
-                    text-align: left;
-                    font-size: 20px;
-                    display: flex;
-                    padding: 10px;
-                    height: 40px;
-                    left: 102px
-                }
-            }
-            .info-1VyQPT{
-                text-transform: none;
-                .size12-3cLvbJ{
-                    text-transform: capitalize;
-                }
-                &:last-child{
-                    &::after{
-                        content: var(--theme)' ' var(--version) ' By ' var(--author);
-                        color: var(--text-muted);
-                        display: inline-block;
-                        line-height: 16px;
-                        font-size: 12px;
-                        width: 100%;
-                    }
-                }
-            }
+          }
         }
-        &::-webkit-scrollbar{
-            display: none;
-        }
+      }
     }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
 }
