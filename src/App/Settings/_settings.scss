@@ -90,19 +90,24 @@
             }
         }
         &::before{
-            width: calc(var(--sidebar-width) - calc(var(--secondary-spacing) + var(--secondary-spacing)));
+            width: calc(var(--sidebar-width) - var(--secondary-spacing));
             background-color: var(--background-secondary-alt);
-            left: calc(var(--tertiary-spacing) * 2.7);
-            top: calc(var(--primary-spacing) * 6.4);
+            left: calc(var(--tertiary-spacing) * 2.55);
+            top: calc(var(--tertiary-spacing) * 1.25);
+            border-radius: var(--primary-rounding);
+            padding: 0 var(--primary-spacing);
             color: var(--text-normal);
             content: 'Other Settings';
             letter-spacing: .6px;
+            pointer-events: all;
+            align-items: center;
+            text-align: center;
             line-height: 20px;
             font-weight: 600;
-            text-align: left;
             font-size: 24px;
             position: fixed;
-            padding: 5px;
+            display: flex;
+            height: 60px;
         }
     }
     

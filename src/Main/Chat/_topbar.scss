@@ -8,19 +8,22 @@
     width: unset;
     .children-19S4PO{
         left: calc(var(--tertiary-spacing) * 2.6);
-        top: calc(var(--tertiary-spacing) * 1.7);
+        top: calc(var(--tertiary-spacing) * 1.25);
+        height: 60px;
         position: fixed;
         .title-29uC1r{
+            max-width: calc(var(--sidebar-width) - var(--primary-spacing));
             padding-left: var(--primary-spacing);
             text-transform: capitalize;
             letter-spacing: .8px;
+            line-height: normal;
             font-size: 1.35rem;
         }
         .container-3FPLD3{
             width: calc(var(--sidebar-width) - var(--primary-spacing));
             padding-left: var(--primary-spacing);
         }
-        .topic-TCb_qw{
+        .topic-KQbDiq{
             left: calc(var(--tertiary-spacing) * 9.4);
             top: calc(var(--tertiary-spacing) * 1.65);
             max-width: 570px;

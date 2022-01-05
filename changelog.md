@@ -140,5 +140,10 @@ Commits have will have their own code depending on the amount of change done to 
         <td>BF (5.9.26)</td>
         <td> Just did some repositioning, and bug fixes. I added an "Other Settings" title for setting tabs that are client mods since I cannot keep up with every tab guys own. And since there's no universal attribute/class for it.</td>
       </tr>
+      <tr>
+        <td>2022-1-05</td>
+        <td>BF (5.9.27)</td>
+        <td>Hey! I'm back from my vacation! Just replacing elements and doing some re-positioning.</td>
+      </tr>
    </body>
 </table>

@@ -9,12 +9,14 @@
         [style="height: 84px;"] {
             height: 140px !important;
         }
-        .container-3qpZp9 {
+        .container-1xC34H{
+            top: calc(var(--primary-spacing) - 15px);
             background-color: var(--background-primary);
             border-radius: var(--primary-rounding);
-            padding: var(--primary-spacing);
             margin: 0 var(--primary-spacing);
-            .divider-3HbLTj {
+            padding: var(--primary-spacing);
+            position: relative;
+            [role="separator"] {
                 display: none;
             }
         }
@@ -60,7 +62,7 @@
                                 height: 20px;
                                 content: "";
                                 width: 5px;
-                                right: -10px;
+                                right: -8px;
                                 top: 0px;
                             }
                         }
