@@ -1,0 +1,55 @@
+.powercord-spotify{
+    background-color: var(--background-secondary-alt);
+    padding-bottom: var(--primary-spacing);
+    border-radius: var(--primary-rounding);
+    margin-top: var(--primary-spacing);
+    .container-3baos1{
+        padding: 0 var(--primary-spacing);
+        .spotify-buttons{
+            position: relative;
+            right: 234px;
+            top: 44px;
+            button{
+                div{
+                    color: var(--interactive-normal);
+                }
+            }
+        }
+        img{
+            border-radius: var(--primary-rounding) !important;
+        }
+        .nameTag-3uD-yy{
+            min-width: calc(100% - 42px);
+        }
+    }
+    .spotify-extra-controls{
+        margin-top: calc(var(--primary-spacing) - 8px) !important;
+        background-color: var(--background-secondary);
+        border-radius: var(--primary-rounding);
+        padding-right: var(--primary-spacing);
+        justify-content: flex-end !important;
+        margin: 0 var(--primary-spacing);
+        transition: none !important;
+        height: 32px !important;
+        opacity: 1 !important;
+    }
+    .spotify-seek{
+        margin-top: var(--primary-spacing) !important;
+        transition: none;
+        .spotify-seek-elements{
+            margin: 0 calc(var(--primary-spacing) - 3px);
+            height: 16px !important;
+            opacity: 1 !important;
+            font-size: 14px;
+        }
+        .spotify-seek-bar{
+            background-color: var(--background-tertiary);
+            border-radius: var(--primary-rounding);
+            margin: 0 var(--primary-spacing);
+            height: 6px !important;
+            .spotify-seek-bar-progress{
+                border-radius: var(--primary-rounding);
+            }
+        }
+    }
+}

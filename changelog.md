@@ -145,5 +145,10 @@ Commits have will have their own code depending on the amount of change done to 
         <td>BF (5.9.27)</td>
         <td>Hey! I'm back from my vacation! Just replacing elements and doing some re-positioning.</td>
       </tr>
+      <tr>
+        <td>2022-1-06</td>
+        <td>C-U (5.9.28)</td>
+        <td>Finally added support for the Powercord-Spotify plugin. I also moved the close button in settings to where the button initally is.</td>
+      </tr>
    </body>
 </table>

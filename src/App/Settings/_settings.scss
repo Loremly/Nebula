@@ -72,6 +72,38 @@
                     left: -260px;
                     height: 30px;
                 }
+                .tools-3-3s-N{
+                    left: var(--secondary-spacing);
+                    .closeButton-1tv5uR{
+                        background-color: var(--background-secondary);
+                        border-radius: var(--primary-rounding);
+                        transition: var(--transition-normal);
+                        position: relative;
+                        border: none;
+                        height: 48px;
+                        width: 48px;
+                        flex: unset;
+                        left: 2px;
+                        top: -2px;
+                        svg{
+                            height: 24px;
+                            width: 24px;
+                            path{
+                                color: var(--interactive-normal) !important;
+                                transition: var(--transition-normal);
+                            }
+                        }
+                        &:hover{
+                            background-color: var(--background-tertiary);
+                            svg path{
+                                fill: var(--interactive-hover) !important;
+                            }
+                        }
+                    }
+                    .keybind-KpFkfr{
+                        display: none;
+                    }
+                }
             }
             .noticeRegion-1YviSH{
                 padding-right: 0 !important;

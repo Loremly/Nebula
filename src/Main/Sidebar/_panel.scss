@@ -1,7 +1,7 @@
 .panels-j1Uci_{
     background-color: transparent;
     border-radius: var(--primary-rounding);
-    .container-3baos1{
+    .container-3baos1:not(.powercord-spotify .container-3baos1){
         border-radius: 0 0 var(--primary-rounding) var(--primary-rounding);
         background-color: var(--background-primary);
         top: calc(var(--tertiary-spacing) * 2.93);

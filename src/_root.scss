@@ -55,7 +55,7 @@
 
     --theme: 'Nebula';
     --author: 'Loremly';
-    --version: '(v5.9.27)';
+    --version: '(v5.9.28)';
 
     // ╔══════════════════════╦════════════════════════════════════╗
     // ║ Cosmetic Variables   ║ Format: px, calc()                 ║
@@ -69,7 +69,7 @@
     --secondary-spacing: calc(var(--primary-spacing) * 2);
     --tertiary-spacing: calc(var(--primary-spacing) * 4);
 
-    --sidebar-width: 260px;
+    --sidebar-width: 260px !important; // Please dont change.
 
     --transition-normal: 250ms;
     --transition-slow: calc(var(--transition-normal) * 2) ease;

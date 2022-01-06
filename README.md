@@ -1,4 +1,4 @@
-# Nebula v5.9.27
+# Nebula v5.9.28
 ### Round, blue, consistent, Nebula!
 ![screenshot](https://i.imgur.com/khePGjR.png)
 ## Table of context
