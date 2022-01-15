@@ -1,32 +1,32 @@
-[aria-label="USER_SETTINGS"].layer-3QrUeG,
+[aria-label="USER_SETTINGS"].layer-86YKbF,
 [aria-label="GUILD_SETTINGS"]{
     margin-left: calc(var(--tertiary-spacing) * 2.05);
     background-color: transparent;
     pointer-events: none;
-    .standardSidebarView-3F1I7i{
+    .standardSidebarView-E9Pc3j{
         background-color: transparent;
         border-radius: var(--primary-rounding);
         pointer-events: none;
-        .contentRegion-3nDuYy{
+        .contentRegion-3HkfJJ{
             background: var(--background-secondary-alt);
             border-radius: var(--primary-rounding);
             margin: var(--primary-spacing);
             margin-left: 0 !important;
             pointer-events: all !important;
             justify-content: center;
-            .customColumn-Rb6toI{
+            .customColumn-2n-oKU{
                 max-width: none;
-                .customScroller-26gWhv>div{
+                .customScroller-m1-jZn>div{
                     max-width: none !important;
                 }
             }
-            .contentRegionScroller-26nc1e{
+            .contentRegionScroller-2_GT_N{
                 background-color: transparent;
-                .contentColumnDefault-1VQkGM,
-                .contentColumnMinimal-2iX-kP{
+                .contentColumnDefault-3eyv5o,
+                .contentColumnMinimal-32PuDO{
                     min-width: calc(100% - 45px);
                     padding: 60px 20px 20px;
-                    .sectionTitle-2vauyC:not(.marginTop40-i-78cZ .sectionTitle-2vauyC){
+                    .sectionTitle-3j2YI1:not(.marginTop40-Q4o1tS .sectionTitle-3j2YI1){
                         border-radius: var(--primary-rounding) var(--primary-rounding) 0 0;
                         top: calc(var(--tertiary-spacing) + calc(var(--primary-rounding) + 5px));
                         background-color: var(--background-secondary-alt);
@@ -72,9 +72,9 @@
                     left: -260px;
                     height: 30px;
                 }
-                .tools-3-3s-N{
+                .tools-kIrEGr{
                     left: var(--secondary-spacing);
-                    .closeButton-1tv5uR{
+                    .closeButton-PCZcma{
                         background-color: var(--background-secondary);
                         border-radius: var(--primary-rounding);
                         transition: var(--transition-normal);
@@ -100,15 +100,15 @@
                             }
                         }
                     }
-                    .keybind-KpFkfr{
+                    .keybind-13vtq8{
                         display: none;
                     }
                 }
             }
-            .noticeRegion-1YviSH{
+            .noticeRegion-qjyUVg{
                 padding-right: 0 !important;
                 max-width: 100%;
-                .container-2VW0UT{
+                .container-20TyK0{
                     background-color: var(--background-tertiary) !important;
                     border-radius: var(--primary-rounding);
                     box-shadow: none;
@@ -117,7 +117,7 @@
                     }
                 }
             }
-            .hero-EvfTTA{
+            .hero-1aNo0v{
                 max-width: none;
             }
         }

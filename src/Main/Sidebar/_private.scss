@@ -1,12 +1,12 @@
-.privateChannels-1nO12o{
+.privateChannels-oVe7HL{
     background-color: transparent;
-    .searchBar-6Kv8R2{
+    .searchBar-3TnChZ{
         border-radius: 0 0 var(--primary-rounding) var(--primary-rounding);
         background-color: var(--background-secondary-alt);
         padding: calc(var(--tertiary-spacing) * 1.55) 0;
         box-shadow: none;
         z-index: 0;
-        .searchBarComponent-32dTOx{
+        .searchBarComponent-3N7dCG{
             border-radius: var(--primary-rounding) var(--primary-rounding) 0 0;
             width: calc(100% - var(--secondary-spacing));
             background-color: var(--background-primary);
@@ -15,24 +15,24 @@
             height: 50px;
         }
     }
-    .scroller-1JbKMe{
+    .scroller-WSmht3{
         background-color: var(--background-secondary-alt);
         border-radius: var(--primary-rounding);
         margin: var(--primary-spacing) 0;
         margin-bottom: 0 !important;
-        .content-3YMskv {
+        .content-2a4AW9 {
             display: flex;
             flex-wrap: wrap;
             align-content: flex-start;
             justify-content: center;
             margin: 0 var(--primary-spacing);
-            .channel-2QD9_O{
+            .channel-1Shao0{
                 max-width: 100%;
                 margin: 2px 0;
                 height: 44px;
                 width: 100%;
             }
-            .selected-aXhQR6:not([href*="/channels/@me/"]) .layout-2DM8Md{
+            .selected-1-Z6gm:not([href*="/channels/@me/"]) .layout-1qmrhw{
                 background-color: var(--background-secondary) !important;
             }
             & > a {
@@ -51,7 +51,7 @@
                     }
                 }
             }
-            .children-gzQq2t {
+            .children-283-lq {
                 margin-left: 0px;
             }
             & > h2 {
@@ -62,14 +62,14 @@
             }
             & > a[href='/library'] {
                 margin: var(--primary-spacing) 0 0 var(--primary-spacing);
-                .linkButtonIcon-Mlm5d6 {
+                .linkButtonIcon-7rsZcu {
                     position: relative;
                     bottom: 1px;
                 }
             }
             & > a[href='/discovery'] {
                 margin: var(--primary-spacing) var(--primary-spacing) 0 var(--primary-spacing);
-                .linkButtonIcon-Mlm5d6 {
+                .linkButtonIcon-7rsZcu {
                     position: relative;
                     bottom: 0px;
                 }
@@ -86,16 +86,16 @@
             }
         }
         [href="/channels/@me"]{
-            .children-gzQq2t{
+            .children-283-lq{
                 position: absolute;
                 top: 35px;
                 right: -2px;
-                .numberBadge-2s8kKX{
+                .numberBadge-37OJ3S{
                     border-radius: var(--primary-rounding);
                 }
             }
         }
-        .channel-2QD9_O{
+        .channel-1Shao0{
             border-radius: var(--primary-rounding);
             margin: 2px var(--primary-spacing);
         }
