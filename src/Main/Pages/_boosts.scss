@@ -1,0 +1,86 @@
+.navigationBar-3r0IQK{
+    background-color: var(--background-secondary) !important;
+    left: calc(var(--secondary-spacing) + 2px);
+    top: calc(var(--tertiary-spacing) * 2.7);
+    border-radius: var(--primary-rounding);
+    position: fixed;
+    height: 48px;
+    width: 48px;
+    padding: 0;
+    button{
+        border: none;
+        min-width: 100%;
+        display: block;
+        height: 100%;
+        .contents-3ca1mk {
+            align-items: center;
+            position: absolute;
+            color: transparent;
+            display: flex;
+            height: 100%;
+            width: 48px;
+            left: 0;
+            top: 0;
+            svg{
+                transition: var(--transition-normal);
+                color: var(--interactive-normal);
+                position: absolute;
+                height: 24px;
+                width: 24px;
+                left: 12px;
+                top: 12px;
+                path{
+                    d: path("M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z");
+                }
+            }
+        }
+    }
+    &:hover{
+        button{
+            background-color: var(--background-tertiary);
+            svg{
+                color: var(--interactive-hover)
+            }
+        }
+    }
+}
+.layerContainer-2v_Sit{
+    .root-2zfUH6{
+        margin-top: var(--tertiary-spacing) !important;
+        margin: var(--primary-spacing);
+        .perksModal-CLcR1c{
+            margin-left: calc(var(--tertiary-spacing) * 2.3) !important;
+            background-color: var(--background-primary) !important;
+            border-radius: var(--primary-rounding);
+            .progressBar-20NUv9{
+                .barBackground-unEPDT{
+                    background-color: var(--background-tertiary) !important;
+                }
+                .tierMarkerBackground-G8FoN4{
+                    background-color: var(--background-secondary) !important;
+                }
+                [style="transform: scale(1); background: rgb(32, 34, 37);"],
+                [style="transform: scale(1.625); background: rgb(32, 34, 37);"]{
+                    background-color: var(--background-secondary-alt) !important;
+                }
+            }
+            .tierWrapper-CsnudO{
+                background-color: var(--background-secondary-alt);
+                border-radius: var(--primary-rounding);
+                .tierHeader-wgo0w_{
+                    background-color: var(--background-secondary);
+                    border-radius: var(--primary-rounding);
+                    margin: var(--primary-spacing);
+                    background-image: none;
+                }
+                .tierBody-3ju-rc{
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+            .perk-19D_HN{
+                background-color: var(--background-secondary) !important;
+                border-radius: var(--primary-rounding);
+            }
+        }
+    }
+}

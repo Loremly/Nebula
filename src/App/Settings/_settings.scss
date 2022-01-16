@@ -72,38 +72,6 @@
                     left: -260px;
                     height: 30px;
                 }
-                .tools-kIrEGr{
-                    left: var(--secondary-spacing);
-                    .closeButton-PCZcma{
-                        background-color: var(--background-secondary);
-                        border-radius: var(--primary-rounding);
-                        transition: var(--transition-normal);
-                        position: relative;
-                        border: none;
-                        height: 48px;
-                        width: 48px;
-                        flex: unset;
-                        left: 2px;
-                        top: -2px;
-                        svg{
-                            height: 24px;
-                            width: 24px;
-                            path{
-                                color: var(--interactive-normal) !important;
-                                transition: var(--transition-normal);
-                            }
-                        }
-                        &:hover{
-                            background-color: var(--background-tertiary);
-                            svg path{
-                                fill: var(--interactive-hover) !important;
-                            }
-                        }
-                    }
-                    .keybind-13vtq8{
-                        display: none;
-                    }
-                }
             }
             .noticeRegion-qjyUVg{
                 padding-right: 0 !important;
@@ -142,5 +110,20 @@
             height: 60px;
         }
     }
-    
+}
+[aria-label="USER_SETTINGS"].layer-86YKbF,
+[aria-label="GUILD_IDENTITY_SETTINGS"],
+[aria-label="GUILD_SETTINGS"]{
+    &::before{
+        background-color: var(--background-primary);
+        border-radius: var(--primary-rounding);
+        bottom: var(--primary-spacing);
+        left: var(--primary-spacing);
+        pointer-events: all;
+        position: fixed;
+        height: 79%;
+        content: '';
+        width: 72px;
+        z-index: 10;
+    }
 }

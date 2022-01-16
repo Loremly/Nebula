@@ -150,5 +150,10 @@ Commits have will have their own code depending on the amount of change done to 
         <td>MJR-U (5.10.0)/td>
         <td>As all you know there was an update where almost every single class name in Canary was changed. This broke every theme that used class names, and broke various plugins. I was avoiding fixing this manually until someone made a tool that replaced them all at once and I was able to do this in a few minutes. Thank you [LayneTheEpic](https://github.com/laynetheepic).</td>
       </tr>
+      <tr>
+         <td>2022-1-16</td>
+         <td>C-U (5.10.05)</td>
+         <td>I did some fixes to unstyled parts of Discord. I also managed to the server boost page. It was the hardest thing i've ever done.</td>
+      </tr>
    </body>
 </table>

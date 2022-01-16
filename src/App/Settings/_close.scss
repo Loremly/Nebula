@@ -1,0 +1,89 @@
+.toolsContainer-25FL6V{
+    position: absolute;
+    .tools-kIrEGr{
+        left: var(--secondary-spacing);
+        .closeButton-PCZcma{
+            background-color: var(--background-secondary);
+            border-radius: var(--primary-rounding);
+            transition: var(--transition-normal);
+            position: relative;
+            border: none;
+            height: 48px;
+            width: 48px;
+            flex: unset;
+            left: 2px;
+            top: -2px;
+            svg{
+                height: 24px;
+                width: 24px;
+                path{
+                    color: var(--interactive-normal) !important;
+                    transition: var(--transition-normal);
+                }
+            }
+            &:hover{
+                background-color: var(--background-tertiary);
+                svg path{
+                    fill: var(--interactive-hover) !important;
+                }
+            }
+        }
+        .keybind-13vtq8{
+            display: none;
+        }
+    }
+}
+[aria-label="GUILD_IDENTITY_SETTINGS"]{
+    .tools-kIrEGr{
+        top: calc(var(--tertiary-spacing) * 2.75);
+    }
+}
+.container-O54IuJ{
+    left: var(--secondary-spacing);
+    position: fixed;
+}
+.closeWrapper-1aVqeP{
+    left: calc(var(--tertiary-spacing) - 6px);
+    top: calc(var(--tertiary-spacing) * .95);
+    position: absolute;
+    width: unset;
+    .closeContent-1uXQiy{
+        max-width: none;
+        display: block;
+        width: 48px;
+        .container-O54IuJ{
+            left: unset;
+            position: relative;
+            right: unset;
+            .closeButton-PCZcma{
+                background-color: var(--background-secondary);
+                border-radius: var(--primary-rounding);
+                transition: var(--transition-normal);
+                position: relative;
+                border: none;
+                height: 48px;
+                width: 48px;
+                flex: unset;
+                left: 2px;
+                top: -2px;
+                svg{
+                    height: 24px;
+                    width: 24px;
+                    path{
+                        color: var(--interactive-normal) !important;
+                        transition: var(--transition-normal);
+                    }
+                }
+                &:hover{
+                    background-color: var(--background-tertiary);
+                    svg path{
+                        fill: var(--interactive-hover) !important;
+                    }
+                }
+            }
+            .keybind-13vtq8{
+                display: none;
+            }
+        }
+    }
+}
