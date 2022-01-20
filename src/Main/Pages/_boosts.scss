@@ -49,7 +49,7 @@
         margin-top: var(--tertiary-spacing) !important;
         margin: var(--primary-spacing);
         .perksModal-CLcR1c{
-            margin-left: calc(var(--tertiary-spacing) * 2.3) !important;
+            margin-left: calc(var(--tertiary-spacing) * 2) !important;
             background-color: var(--background-primary) !important;
             border-radius: var(--primary-rounding);
             .progressBar-20NUv9{
@@ -81,6 +81,21 @@
                 background-color: var(--background-secondary) !important;
                 border-radius: var(--primary-rounding);
             }
+        }
+        .container-O54IuJ{
+            top: -55px;
+        }
+        &::before{
+            background-color: var(--background-primary);
+            border-radius: var(--primary-rounding);
+            pointer-events: all;
+            position: fixed;
+            height: 100%;
+            content: '';
+            width: 72px;
+            z-index: 1;
+            bottom: 0;
+            left: 0;
         }
     }
 }

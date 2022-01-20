@@ -6,6 +6,7 @@ body {
             background-color: var(--background-primary);
             border-radius: var(--primary-rounding);
             margin: var(--primary-spacing);
+            max-height: calc(100% - 48px);
             .app-2CXKsg {
                 border-radius: var(--primary-rounding);
                 background-color: transparent;

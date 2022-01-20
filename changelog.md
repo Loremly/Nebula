@@ -152,8 +152,13 @@ Commits have will have their own code depending on the amount of change done to 
       </tr>
       <tr>
          <td>2022-1-16</td>
-         <td>C-U (5.10.05)</td>
+         <td>C-U (5.11.13)</td>
          <td>I did some fixes to unstyled parts of Discord. I also managed to the server boost page. It was the hardest thing i've ever done.</td>
+      </tr>
+      <tr>
+         <td>2022-1-20</td>
+         <td>C-U | BF (5.11.13)</td>
+         <td>Polishing and fixes to some other unstyled elements of Discord.</td>
       </tr>
    </body>
 </table>

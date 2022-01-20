@@ -4,9 +4,9 @@
         background-color: #2D325A !important;
         border-radius: var(--primary-rounding);
         margin: var(--primary-spacing);
-        margin-bottom: 0 !important;
         .controlButton-2PMNom{
             svg{
+                color: var(--interactive-normal);
                 foreignObject{
                     mask: none;
                     .colorable-3rVGna.primaryDark-2UJt1G{
@@ -48,24 +48,65 @@
             background: linear-gradient(var(--background-tertiary) 30% , transparent 60%);
         }
     }
-}
-.container-ZMc96U.transparent-1lUmft{
-    width: calc(100% - var(--secondary-spacing));
-    background-color: var(--background-primary);
-    border-radius: var(--primary-rounding);
-    margin: var(--primary-spacing);
-    .iconWrapper-2awDjA,
-    .divider-q3P9HC,
-    &::after{
-        display: none;
-    } 
-    .toolbar-3_r2xA{
-        .searchFilter-2UfsDk,
-        .searchAnswer-23w-CH{
-            background-color: var(--background-accent) !important;
+    .videoControls-353CsJ{
+        justify-content: flex-end;
+        position: absolute;
+        display: flex;
+        .topControls-23RE3h {
+            width: calc(var(--sidebar-width) - var(--secondary-spacing));
+            left: calc(var(--tertiary-spacing) * 2.8);
+            top: calc(var(--tertiary-spacing) * 1.42);
+            transition: none !important;
+            transform: none !important;
+            opacity: 1 !important;
+            position: fixed;
+            .headerWrapper-1ULEPv{
+                margin: 0;
+            }
+            .container-ZMc96U.transparent-1lUmft{
+                padding: 0 2px;
+                .children-3xh0VB{
+                    .title-17SveM{
+                    letter-spacing: 0.8px;
+                    font-size: 1.35rem;
+                    }
+                    .iconWrapper-2awDjA{
+                        display: none;
+                    }
+                }
+                .toolbar-3_r2xA{
+                    div{
+                        button{
+                            margin: 0 5px;
+                        }
+                    }
+                    .iconWrapper-2awDjA{
+                        margin: 0 0 0px 2px;
+                    }
+                    .divider-q3P9HC{
+                        display: none;
+                    }
+                }
+            }
         }
-        [href="https://support.discord.com"]{
+        .bottomControls-31YuPK{
+            margin-bottom: var(--primary-spacing);
+        }
+        .gradientTop-1UBZHm{
             display: none;
         }
+    }
+}
+
+.tile-2TcwiO{
+    background-color: var(--background-tertiary) !important;
+    border-radius: var(--primary-rounding);
+}
+
+.pictureInPictureVideo-2puO2Q{
+    background: var(--background-secondary-alt);
+    border-radius: var(--primary-rounding);
+    .videoControls-e2Ogs3{
+        background: linear-gradient(var(--background-tertiary) 5%,transparent 30%,transparent 70%,var(--background-tertiary) 95%);
     }
 }

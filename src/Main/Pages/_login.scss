@@ -1,0 +1,26 @@
+.characterBackground-1BPOOJ{
+    .artwork-L5TAwQ{
+        display: none;
+    }
+    .authBoxExpanded-AN2aH1{
+        background-color: var(--background-secondary-alt) !important;
+        border-radius: var(--primary-rounding) !important;
+        padding: var(--primary-spacing);
+        box-shadow: none !important;
+        .mainLoginContainer-wHmAjP{
+            background-color: var(--background-secondary);
+            border-radius: var(--primary-rounding);
+            padding: var(--tertiary-spacing);
+        }
+        .verticalSeparator-2r9gHa{
+            display: none;
+        }
+        .qrLogin-1ejtpI{
+            background-color: var(--background-secondary);
+            border-radius: var(--primary-rounding);
+            margin-left: var(--primary-spacing);
+            padding: var(--tertiary-spacing);
+            height: 340px;
+        }
+    }
+}
