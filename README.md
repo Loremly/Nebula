@@ -1,3 +1,5 @@
+# So long Nebula...
+Development for Nebula will be discontinued starting Feburary 28th. It was very fun developing Nebula and learning from it, but after a whole year, it's time to move on. Thank you for using Nebula and motivating me to keep going. 
 # Nebula v5.11.13
 ### Round, blue, consistent, Nebula!
 ![screenshot](https://i.imgur.com/khePGjR.png)
